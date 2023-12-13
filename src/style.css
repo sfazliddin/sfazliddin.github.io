@@ -1,0 +1,35 @@
+.link {
+  text-decoration: none;
+  color: #007bff; /* You can change the color as needed */
+}
+
+/* Add a style for the link class when hovered */
+.link:hover {
+  text-decoration: underline;
+}
+
+#main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Add some styles to the centered div for better visibility */
+#main {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Add some styles for the flex items (optional) */
+.flex-item {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
