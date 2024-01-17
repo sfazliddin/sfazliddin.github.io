@@ -1,64 +1,62 @@
 .flex-container {
+  justify-content: center;
   display: flex;
   flex-direction: row;
 }
 
 /* Add some styles for the flex items (optional) */
 .flex-item {
-  margin: 10px;
+  margin: 30px;
   padding: 20px;
-  border: 0px solid #ccc;
 }
 body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #6db9cc;
   color: #333;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-h1 {
+/* h1 {
   color: #3498db;
   text-align: center;
   margin: 20px 0;
-}
+} */
 section {
-  max-width: 800px;
   margin: 20px;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  display: flex; /* Center the content horizontally */
+  display: flex;
   flex-direction: column;
   align-items: center;
-  align-self: center;
+  background-color: #a3c0c0;
 }
 header {
-  background-color: #e0e0e0;
-  color: #ffffff;
+  background-color: #dbd8d8;
+  color: #3498db;
   text-align: center;
   padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
   align-self: auto;
 }
 img {
   display: block;
   margin: 0 auto;
   padding: 0;
-  border-radius: 50%;
-  width: 200px; /* Set the width to the desired size */
-  height: 200px; /* Set the height to the desired size */
+  border-radius: 10%;
+  width: 500px; /* Set the width to the desired size */
+  height: auto; /* Set the height to the desired size */
   object-fit: cover; /* Ensure the image covers the entire container */
 }
 
-p {
-  text-align: justify;
-}
 .button {
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
   font-size: 16px;
   text-align: center;
@@ -69,9 +67,29 @@ p {
   border: 2px solid #2980b9;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 20px;
+  margin: 20px;
+  width: fit-content;
+  align-self: center;
 }
 
 .button:hover {
   background-color: #2980b9;
+}
+.title {
+  color: white;
+  background-color: #3498db;
+  padding: 40px 40px 40px 5px;
+
+  border-radius: 0% 45% 45% 00%;
+}
+.name {
+  color: #3498db;
+  background-color: white;
+  padding: 40px 5px 40px 40px;
+
+  border-radius: 50% 0% 0% 50%;
+}
+.text {
+  width: 30%;
+  font-size: large;
 }
