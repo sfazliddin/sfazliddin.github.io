@@ -1,29 +1,22 @@
 section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+  width: auto !important;
   align-items: center;
   background-color: #a3c0c0;
 }
-body {
-}
+
 header {
   background-color: #dbd8d8;
 
   text-align: center;
-
+  width: auto;
   align-self: auto;
 }
 img {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  border-radius: 10%;
   width: 500px; /* Set the width to the desired size */
-  height: auto; /* Set the height to the desired size */
-  object-fit: cover; /* Ensure the image covers the entire container */
 }
 
 .button {
   transition: background-color 0.3s ease;
-  margin: 20px;
+  margin: 1%;
 }
